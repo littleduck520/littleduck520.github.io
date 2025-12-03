@@ -1,6 +1,4 @@
-# 忽略 Hugo 可执行文件
 hugo.exe
-
-# 忽略生成网站的目录
-/public/
-
+public
+resources
+.hugo_build.lock
