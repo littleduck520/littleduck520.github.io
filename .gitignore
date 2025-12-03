@@ -1,4 +1,9 @@
+# 忽略 Hugo 系统文件
 hugo.exe
-public
-resources
-.hugo_build.lock
+hugo.exe~
+
+# 忽略生成的静态文件 (完全交给 Actions 生成)
+/public/
+/docs/
+/resources/
+.DS_Store
