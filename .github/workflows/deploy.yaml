@@ -21,7 +21,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: true  # Stack 主题通常包含子模块，必须开启
-          fetch-depth: 0    # 获取完整历史
+          fetch-depth: 1    # 获取完整历史
 
       # 2. 安装 Hugo 环境
       - name: Setup Hugo
