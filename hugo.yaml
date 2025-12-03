@@ -230,7 +230,7 @@ menu:
 
         - identifier: self
           name: Self
-          url: https://http://localhost:1313/
+          url: https://github.com/littleduck520/
           params:
               icon: brand-self
 related:

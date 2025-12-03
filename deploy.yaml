@@ -1,0 +1,44 @@
+name: 自动部署 Hugo 博客
+
+on:
+  # 监听 main 分支的 push 动作
+  push:
+    branches:
+      - main
+  # 允许手动在网页端触发（方便测试）
+  workflow_dispatch:
+
+# 设置权限，允许 Actions 修改仓库内容
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. 拉取代码
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          submodules: true  # Stack 主题通常包含子模块，必须开启
+          fetch-depth: 0    # 获取完整历史
+
+      # 2. 安装 Hugo 环境
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest' # 使用最新版
+          extended: true         # 必须开启扩展版 (Stack 主题需要)
+
+      # 3. 编译网站 (生成 public 文件夹)
+      - name: Build
+        run: hugo --minify
+
+      # 4. 将 public 文件夹部署到 gh-pages 分支
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }} # GitHub 自动生成的令牌，无需配置
+          publish_dir: ./public   # 指定要发布的文件夹
+          publish_branch: gh-pages # 指定发布到的分支
+          commit_message: ${{ github.event.head_commit.message }}
