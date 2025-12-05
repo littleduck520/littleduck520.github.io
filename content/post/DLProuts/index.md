@@ -5,7 +5,7 @@ title = 'DeepLearnProuts'
 
 +++
 
-# # 第一周深度学习基础
+# 第一周深度学习基础
 
 ## 【第一部分：代码练习】
 
@@ -78,13 +78,14 @@ title = 'DeepLearnProuts'
 
    <img src="3.png" style="zoom:40%;" />
 
-   
+
+
 
 ### 3.2螺旋数据分类
 
 [尝试链接]([week1_2spiraldate.ipynb - Colab](https://colab.research.google.com/drive/15Ci0NneFRNpvgaRGK7YuJxxJD5Ob1HuY#scrollTo=TH5n4_qBNHDM))
 
-直观地演示“线性模型”和“非线性神经网络”的区别，以及激活函数的重要性
+直观地演示“线性模型”和“非线性神经网络”的区别，以及==激活函数==的重要性
 
 
 
@@ -95,6 +96,10 @@ title = 'DeepLearnProuts'
 **添加Relu激活函数**
 
 <img src="5.png" style="zoom:50%;" />
+
+
+
+
 
 ## 【第⼆部分：问题总结】
 
@@ -147,4 +152,3 @@ title = 'DeepLearnProuts'
 SGD基础优化器，通常搭配动量（Momentum）。所有参数使用统一的学习率。在某些大型视觉任务中，如果精心调优，有时能达到更好的最终泛化性能。需要手动调整学习率，收敛速度慢。
 
 Adam自适应学习率（Adaptive Learning Rate）。为每个参数动态调整学习率，并结合了动量机制。收敛速度快，容易使用，是大多数任务的默认首选。有时被认为泛化性能略逊于经过精细调优的 SGD。
-
