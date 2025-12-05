@@ -15,7 +15,7 @@ title = 'DeepLearnProuts'
 
 - **定义数据**
 
-<img src="C:\Users\Muxin\Pictures\Screenshots\PixPin_2025-12-05_133832.png" style="zoom:40%;" />
+<img src="1.png" style="zoom:40;" />
 
 什么是 Tensor？
 
@@ -38,7 +38,7 @@ title = 'DeepLearnProuts'
 
 - **定义操作**
 
-<img src="C:\Users\Muxin\Pictures\Screenshots\PixPin_2025-12-05_133932.png" alt="PixPin_2025-12-05_133932" style="zoom:40%;" />
+<img src="2.png" style="zoom:40%;" />
 
 1. Tensor属性和索引
 
@@ -76,7 +76,7 @@ title = 'DeepLearnProuts'
 
 5. Tensor 与 NumPy 的相互转换
 
-   <img src="C:\Users\Muxin\Pictures\Screenshots\PixPin_2025-12-05_134134.png" alt="PixPin_2025-12-05_134134" style="zoom:40%;" />
+   <img src="3.png" style="zoom:40%;" />
 
    
 
@@ -90,11 +90,11 @@ title = 'DeepLearnProuts'
 
 **线性模型的准确率较低**
 
-<img src="C:\Users\Muxin\AppData\Roaming\Typora\typora-user-images\image-20251205152805063.png" alt="image-20251205152805063" style="zoom:50%;" />
+<img src="4.png" style="zoom:50%;" />
 
 **添加Relu激活函数**
 
-<img src="C:\Users\Muxin\AppData\Roaming\Typora\typora-user-images\image-20251205153007179.png" alt="image-20251205153007179" style="zoom:50%;" />
+<img src="5.png" style="zoom:50%;" />
 
 ## 【第⼆部分：问题总结】
 
