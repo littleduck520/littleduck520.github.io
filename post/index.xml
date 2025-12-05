@@ -6,7 +6,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;定义数据&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src="C:\Users\Muxin\Pictures\Screenshots\PixPin_2025-12-05_133832.png" style="zoom:40%;" /&gt;
+&lt;img src="1.png" style="zoom:40;" /&gt;
 &lt;p&gt;什么是 Tensor？&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -60,7 +60,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;定义操作&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;img src="C:\Users\Muxin\Pictures\Screenshots\PixPin_2025-12-05_133932.png" alt="PixPin_2025-12-05_133932" style="zoom:40%;" /&gt;
+&lt;img src="2.png" style="zoom:40%;" /&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Tensor属性和索引&lt;/p&gt;
@@ -200,7 +200,7 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Tensor 与 NumPy 的相互转换&lt;/p&gt;
-&lt;img src="C:\Users\Muxin\Pictures\Screenshots\PixPin_2025-12-05_134134.png" alt="PixPin_2025-12-05_134134" style="zoom:40%;" /&gt;
+&lt;img src="3.png" style="zoom:40%;" /&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id="32螺旋数据分类"&gt;3.2螺旋数据分类
@@ -208,9 +208,9 @@
 &gt;week1_2spiraldate.ipynb - Colab&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;直观地演示“线性模型”和“非线性神经网络”的区别，以及激活函数的重要性&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;线性模型的准确率较低&lt;/strong&gt;&lt;/p&gt;
-&lt;img src="C:\Users\Muxin\AppData\Roaming\Typora\typora-user-images\image-20251205152805063.png" alt="image-20251205152805063" style="zoom:50%;" /&gt;
+&lt;img src="4.png" style="zoom:50%;" /&gt;
 &lt;p&gt;&lt;strong&gt;添加Relu激活函数&lt;/strong&gt;&lt;/p&gt;
-&lt;img src="C:\Users\Muxin\AppData\Roaming\Typora\typora-user-images\image-20251205153007179.png" alt="image-20251205153007179" style="zoom:50%;" /&gt;
+&lt;img src="5.png" style="zoom:50%;" /&gt;
 &lt;h2 id="第部分问题总结"&gt;【第⼆部分：问题总结】
 &lt;/h2&gt;&lt;p&gt;&lt;em&gt;1、AlexNet有哪些特点？为什么可以比LeNet取得更好的性能？&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;​ AlexNet有更深的网络结构： AlexNet 共有 8 层（5 个卷积层 + 3 个全连接层），比早期的 LeNet（通常只有 5 层）要深得多。他使用 ReLU 激活函数,作为非线性激活函数。&lt;/p&gt;
