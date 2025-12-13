@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Muxin</title><link>https://littleduck520.github.io/</link><description>Recent content on Muxin</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Wed, 03 Dec 2025 01:04:38 +0800</lastBuildDate><atom:link href="https://littleduck520.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>DeepLearnProuts</title><link>https://littleduck520.github.io/p/deeplearnprouts/</link><pubDate>Wed, 03 Dec 2025 01:04:38 +0800</pubDate><guid>https://littleduck520.github.io/p/deeplearnprouts/</guid><description>&lt;h1 id="第一周深度学习基础"&gt;第一周：深度学习基础
-&lt;/h1&gt;&lt;h2 id="part1代码练习"&gt;Part1：代码练习
-&lt;/h2&gt;&lt;h3 id="31-pytorch基础练习"&gt;3.1 pytorch基础练习
-&lt;/h3&gt;&lt;p&gt;(&lt;a class="link" href="https://colab.research.google.com/drive/1SuWdRTvEA15_l76ppUxDPie4WfjQ-sPk" target="_blank" rel="noopener"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Muxin</title><link>https://littleduck520.github.io/</link><description>Recent content on Muxin</description><generator>Hugo -- gohugo.io</generator><language>zh-cn</language><copyright>Example Person</copyright><lastBuildDate>Wed, 03 Dec 2025 01:04:38 +0800</lastBuildDate><atom:link href="https://littleduck520.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>DeepLearnProuts</title><link>https://littleduck520.github.io/p/deeplearnprouts/</link><pubDate>Wed, 03 Dec 2025 01:04:38 +0800</pubDate><guid>https://littleduck520.github.io/p/deeplearnprouts/</guid><description>&lt;h2 id="第一周深度学习基础"&gt;第一周：深度学习基础
+&lt;/h2&gt;&lt;h3 id="part1代码练习"&gt;Part1：代码练习
+&lt;/h3&gt;&lt;h4 id="31-pytorch基础练习"&gt;3.1 pytorch基础练习
+&lt;/h4&gt;&lt;p&gt;(&lt;a class="link" href="https://colab.research.google.com/drive/1SuWdRTvEA15_l76ppUxDPie4WfjQ-sPk" target="_blank" rel="noopener"
 &gt;Google Colab&lt;/a&gt;)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;定义数据&lt;/strong&gt;&lt;/li&gt;
@@ -203,16 +203,16 @@
 &lt;img src="3.png" style="zoom:40%;" /&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h3 id="32螺旋数据分类"&gt;3.2螺旋数据分类
-&lt;/h3&gt;&lt;p&gt;(&lt;a class="link" href="https://colab.research.google.com/drive/15Ci0NneFRNpvgaRGK7YuJxxJD5Ob1HuY#scrollTo=TH5n4_qBNHDM" target="_blank" rel="noopener"
+&lt;h4 id="32螺旋数据分类"&gt;3.2螺旋数据分类
+&lt;/h4&gt;&lt;p&gt;(&lt;a class="link" href="https://colab.research.google.com/drive/15Ci0NneFRNpvgaRGK7YuJxxJD5Ob1HuY#scrollTo=TH5n4_qBNHDM" target="_blank" rel="noopener"
 &gt;week1_2spiraldate.ipynb - Colab&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;直观地演示“线性模型”和“非线性神经网络”的区别，以及==激活函数==的重要性&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;线性模型的准确率较低&lt;/strong&gt;&lt;/p&gt;
 &lt;img src="4.png" style="zoom:50%;" /&gt;
 &lt;p&gt;&lt;strong&gt;添加Relu激活函数&lt;/strong&gt;&lt;/p&gt;
 &lt;img src="5.png" style="zoom:50%;" /&gt;
-&lt;h2 id="part2问题总结"&gt;Part2：问题总结
-&lt;/h2&gt;&lt;p&gt;&lt;em&gt;1、AlexNet有哪些特点？为什么可以比LeNet取得更好的性能？&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id="part2问题总结"&gt;Part2：问题总结
+&lt;/h3&gt;&lt;p&gt;&lt;em&gt;1、AlexNet有哪些特点？为什么可以比LeNet取得更好的性能？&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;​ AlexNet有更深的网络结构： AlexNet 共有 8 层（5 个卷积层 + 3 个全连接层），比早期的 LeNet（通常只有 5 层）要深得多。他使用 ReLU 激活函数,作为非线性激活函数。&lt;/p&gt;
 &lt;p&gt;​ 优势： 大大加快了网络的训练速度，同时缓解了梯度消失问题。&lt;/p&gt;
 &lt;p&gt;​ 使用 GPU 并行计算： AlexNet 是第一个证明使用多块 GPU 进行并行计算可以有效训练大规模深度卷积神经网络的模型。&lt;/p&gt;
@@ -237,9 +237,9 @@
 &lt;p&gt;&lt;em&gt;6、SGD 和 Adam 哪个更有效？&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;SGD基础优化器，通常搭配动量（Momentum）。所有参数使用统一的学习率。在某些大型视觉任务中，如果精心调优，有时能达到更好的最终泛化性能。需要手动调整学习率，收敛速度慢。&lt;/p&gt;
 &lt;p&gt;Adam自适应学习率（Adaptive Learning Rate）。为每个参数动态调整学习率，并结合了动量机制。收敛速度快，容易使用，是大多数任务的默认首选。有时被认为泛化性能略逊于经过精细调优的 SGD。&lt;/p&gt;
-&lt;h1 id="第二周卷积神经网络"&gt;第二周：卷积神经网络
-&lt;/h1&gt;&lt;h2 id="part1知识学习"&gt;Part1：知识学习
-&lt;/h2&gt;&lt;p&gt;卷积神经网络（Convolutional Neural Network，简称 CNN）是一种专门用于处理具有网格结构数据（如图像）的深度学习模型。其基本结构由多个关键层组成。&lt;/p&gt;
+&lt;h2 id="第二周卷积神经网络"&gt;第二周：卷积神经网络
+&lt;/h2&gt;&lt;h3 id="part1知识学习"&gt;Part1：知识学习
+&lt;/h3&gt;&lt;p&gt;卷积神经网络（Convolutional Neural Network，简称 CNN）是一种专门用于处理具有网格结构数据（如图像）的深度学习模型。其基本结构由多个关键层组成。&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;输入层&lt;/strong&gt;&lt;/p&gt;
@@ -295,19 +295,23 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id="part2代码练习"&gt;Part2:代码练习
-&lt;/h2&gt;&lt;h3 id="41-mnist数据集分类"&gt;4.1 MNIST数据集分类
-&lt;/h3&gt;&lt;p&gt;&lt;a class="link" href="https://colab.research.google.com/drive/13ABrD6OwrTZtLgOGNxc4Kej--n6Hocss" target="_blank" rel="noopener"
+&lt;h3 id="part2代码练习"&gt;Part2:代码练习
+&lt;/h3&gt;&lt;h4 id="41-mnist数据集分类"&gt;4.1 MNIST数据集分类
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="https://colab.research.google.com/drive/13ABrD6OwrTZtLgOGNxc4Kej--n6Hocss" target="_blank" rel="noopener"
 &gt;Google Colab&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;该代码实现了一个对比实验，探究卷积神经网络（CNN）与全连接神经网络（FCN/MLP）对图像空间结构的不同依赖程度。
 实验流程共分为五个主要步骤：&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;数据准备与预处理
+&lt;li&gt;
+&lt;p&gt;数据准备与预处理
 加载数据：使用 torchvision.datasets 下载并加载 MNIST 手写数字数据集。
 预处理：定义 transforms，将图像转换为 Tensor 并进行归一化（Normalize）。
-数据加载器：构建 DataLoader，设置 batch_size 和 shuffle 参数，用于批量读取训练集和测试集。&lt;/li&gt;
-&lt;li&gt;模型定义
-为了控制变量，代码构建了两个参数量相近（约 6400 个参数）的模型：&lt;/li&gt;
+数据加载器：构建 DataLoader，设置 batch_size 和 shuffle 参数，用于批量读取训练集和测试集。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;模型定义
+为了控制变量，代码构建了两个参数量相近（约 6400 个参数）的模型：&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
 &lt;ul&gt;
 &lt;li&gt;全连接网络 (FC2Layer)：
@@ -318,23 +322,29 @@
 处理方式：保留图像的二维空间结构进行特征提取。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;ol start="3"&gt;
-&lt;li&gt;基准实验（原始数据训练）
+&lt;li&gt;
+&lt;p&gt;基准实验（原始数据训练）
 训练流程：定义标准的 train 和 test 函数，使用负对数似然损失（NLL Loss）和随机梯度下降（SGD）优化器。
 执行：分别在原始 MNIST 数据集上训练 FCN 和 CNN。
-结果：CNN 的测试准确率（~96%）显著高于 FCN（~87%），验证了 CNN 在提取图像特征上的优势。&lt;/li&gt;
-&lt;li&gt;扰动实验设计（像素打乱）
+结果：CNN 的测试准确率（~96%）显著高于 FCN（~87%），验证了 CNN 在提取图像特征上的优势。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;扰动实验设计（像素打乱）
 为了验证模型对空间信息的依赖，代码引入了&lt;strong&gt;像素重排&lt;/strong&gt;机制：
 生成置换索引：使用 torch.randperm(784) 生成一个固定的随机序列。
 数据处理函数：定义 perm_pixel 函数。该函数按照上述生成的随机序列，将图像中的所有像素点重新排列。打乱后的图像在视觉上呈现为杂乱的噪点，破坏了像素间的邻域关系（如边缘、形状），但保留了像素值的统计特征。
-修改训练逻辑：定义 train_perm 和 test_perm，在输入模型前先对数据应用像素打乱。&lt;/li&gt;
-&lt;li&gt;对照实验（打乱数据训练）
+修改训练逻辑：定义 train_perm 和 test_perm，在输入模型前先对数据应用像素打乱。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;对照实验（打乱数据训练）
 执行：使用打乱后的数据重新训练上述两个模型。
 实现现象：
 FCN：性能基本保持不变。因为 FCN 无论是否打乱，都是将输入视为独立特征的一维向量，不依赖像素的空间位置。
-CNN：性能显著下降。因为像素打乱破坏了图像的局部特征（Locality），导致卷积核无法提取有效的几何特征（如线条、轮廓），使其退化为效率低下的特征提取器。&lt;/li&gt;
+CNN：性能显著下降。因为像素打乱破坏了图像的局部特征（Locality），导致卷积核无法提取有效的几何特征（如线条、轮廓），使其退化为效率低下的特征提取器。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2 id="part3问题总结"&gt;Part3:问题总结
-&lt;/h2&gt;&lt;ul&gt;
+&lt;h3 id="part3问题总结"&gt;Part3:问题总结
+&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;1、dataloader 里面 shuffle 取不同值有什么区别？&lt;/p&gt;
 &lt;p&gt;shuffle=True：
@@ -374,13 +384,13 @@ shuffle=False：
 &lt;p&gt;​ 1×1 卷积可以处理任意空间尺寸的输入（H×W×C），而全连接层（FC）要求输入维度固定（如512维）。
 ​ 1×1 卷积在所有空间位置共享同一组权重，仅对通道做线性组合，不改变 H 和 W，只调整通道数；而 FC 为每个输入元素分配独立权重，将整个输入展平后做全局线性变换，输出为无空间结构的向量。
 因此，1×1 卷积保留空间信息，FC 会丢失空间结构。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;​ 1×1 卷积的主要作用：
-​ 通道降维/升维（如 ResNet 中的 bottleneck）。
+&lt;p&gt;1×1 卷积的主要作用：&lt;/p&gt;
+&lt;p&gt;​ 通道降维/升维（如 ResNet 中的 bottleneck）。
 ​ 特征融合：在不改变空间结构的前提下，融合不同通道的信息。
 ​ 替代 FC 实现更高效、保留空间信息的分类头（如在全卷积网络 FCN 中做像素级预测）。
-​ 增加非线性（配合激活函数，如 ReLU）。&lt;/p&gt;</description></item><item><title>Chinese Test</title><link>https://littleduck520.github.io/p/test-chinese/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://littleduck520.github.io/p/test-chinese/</guid><description>&lt;img src="https://littleduck520.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" /&gt;&lt;h2 id="正文测试"&gt;正文测试
+​ 增加非线性（配合激活函数，如 ReLU）。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Chinese Test</title><link>https://littleduck520.github.io/p/test-chinese/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://littleduck520.github.io/p/test-chinese/</guid><description>&lt;img src="https://littleduck520.github.io/p/test-chinese/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post Chinese Test" /&gt;&lt;h2 id="正文测试"&gt;正文测试
 &lt;/h2&gt;&lt;p&gt;而这些并不是完全重要，更加重要的问题是， 带着这些问题，我们来审视一下学生会退会。 既然如何， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 我们不得不面对一个非常尴尬的事实，那就是， 可是，即使是这样，学生会退会的出现仍然代表了一定的意义。 学生会退会，发生了会如何，不发生又会如何。 经过上述讨论， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 学生会退会，到底应该如何实现。 这样看来， 在这种困难的抉择下，本人思来想去，寝食难安。 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 就我个人来说，学生会退会对我的意义，不能不说非常重大。 莎士比亚曾经提到过，人的一生是短的，但如果卑劣地过这一生，就太长了。这似乎解答了我的疑惑。 莫扎特说过一句富有哲理的话，谁和我一样用功，谁就会和我一样成功。这启发了我， 对我个人而言，学生会退会不仅仅是一个重大的事件，还可能会改变我的人生。 学生会退会，到底应该如何实现。 一般来说， 从这个角度来看， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 在这种困难的抉择下，本人思来想去，寝食难安。 了解清楚学生会退会到底是一种怎么样的存在，是解决一切问题的关键。 一般来说， 生活中，若学生会退会出现了，我们就不得不考虑它出现了的事实。 问题的关键究竟为何？ 而这些并不是完全重要，更加重要的问题是。&lt;/p&gt;
 &lt;p&gt;奥斯特洛夫斯基曾经说过，共同的事业，共同的斗争，可以使人们产生忍受一切的力量。　带着这句话，我们还要更加慎重的审视这个问题： 一般来讲，我们都必须务必慎重的考虑考虑。 既然如此， 这种事实对本人来说意义重大，相信对这个世界也是有一定意义的。 带着这些问题，我们来审视一下学生会退会。 我认为， 我认为， 在这种困难的抉择下，本人思来想去，寝食难安。 问题的关键究竟为何？ 每个人都不得不面对这些问题。 在面对这种问题时， 要想清楚，学生会退会，到底是一种怎么样的存在。 我认为， 既然如此， 每个人都不得不面对这些问题。 在面对这种问题时， 那么， 我认为， 学生会退会因何而发生。&lt;/p&gt;
 &lt;h2 id="引用"&gt;引用
